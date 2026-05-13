@@ -2,7 +2,7 @@ FROM node:20 AS pruner
 WORKDIR /app
 RUN npm install -g turbo
 COPY . .
-RUN npx turbo prune --scope=@calcom/web --scope=@calcom/trpc --scope=@calcom/emails --docker
+RUN npx turbo prune --scope=@calcom/web --scope=@calcom/trpc --scope=@calcom/emails --scope=@calcom/kysely --scope=@calcom/lib --docker
 
 FROM node:20 AS builder
 WORKDIR /app
