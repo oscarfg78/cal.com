@@ -53,7 +53,7 @@ COPY turbo.json turbo.json
 
 # Build and make embed servable from web/public/embed folder
 # Using --inline-builds to ensure Railway receives continuous logs
-RUN yarn turbo run build --filter=@calcom/web... --inline-builds
+RUN yarn turbo run build --filter=@calcom/web...
 
 # Post-build cleanup to reduce image size
 RUN rm -rf node_modules/.cache .yarn/cache apps/web/.next/cache
