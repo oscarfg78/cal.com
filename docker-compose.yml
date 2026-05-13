@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - NEXT_PUBLIC_WEBAPP_URL=https://ingles-facil.com
+      - NEXTAUTH_URL=https://ingles-facil.com
+      - NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
+      - CALENDSO_ENCRYPTION_KEY=${CALENDSO_ENCRYPTION_KEY}
+      - GOOGLE_API_CREDENTIALS=${GOOGLE_API_CREDENTIALS}
+      - GOOGLE_LOGIN_ENABLED=true
+      - REDIS_URL=${REDIS_URL}
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_USER=calcom
+      - POSTGRES_PASSWORD=calcom_password
+      - POSTGRES_DB=calcom
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    volumes:
+      - redis_data:/data
+
+volumes:
+  postgres_data:
+  redis_data:
