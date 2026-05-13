@@ -55,6 +55,9 @@ COPY turbo.json turbo.json
 ENV NEXT_PUBLIC_EMBED_FINGER_PRINT=railway \
     NEXT_PUBLIC_EMBED_VERSION=1.5.3
 
+# Generate Prisma client
+RUN yarn workspace @calcom/prisma run post-install
+
 # Build sequence as in original Dockerfile but within optimized stage
 RUN yarn workspace @calcom/trpc run build
 RUN yarn workspace @calcom/embed-core run build
