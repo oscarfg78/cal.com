@@ -12,8 +12,8 @@ Antes de tocar el código, necesitamos las llaves de acceso.
 3.  **Configurar Pantalla de Consentimiento OAuth**: Configure los datos básicos de su aplicación.
 4.  **Crear Credenciales OAuth 2.0**:
     *   Tipo: Aplicación Web.
-    *   **JavaScript Origins**: `https://ingles-facil.com`
-    *   **Redirect URIs**: `https://ingles-facil.com/api/auth/callback/google`
+    *   **JavaScript Origins**: `https://SU-APP-EN-RAILWAY.up.railway.app` (o su dominio final)
+    *   **Redirect URIs**: `https://SU-APP-EN-RAILWAY.up.railway.app/api/auth/callback/google`
     *   *Guarde el Client ID y Client Secret.*
 5.  **Crear Service Account**:
     *   Vaya a IAM > Service Accounts.
@@ -23,7 +23,9 @@ Antes de tocar el código, necesitamos las llaves de acceso.
 ---
 
 ## Fase 2: Preparación del Repositorio
-1.  **Fork**: Haga un fork del repositorio oficial [calcom/cal.diy](https://github.com/calcom/cal.diy).
+1.  **Fork y Clon**: Haga un fork del repositorio oficial [calcom/cal.diy](https://github.com/calcom/cal.diy) y clónelo localmente en esta carpeta.
+    > [!IMPORTANT]
+    > Sin el código fuente del repositorio (carpeta `apps`, `package.json`, etc.), el Build fallará. Los archivos de orquestación deben estar en la raíz de ese repositorio.
 2.  **Añadir Archivos de Orquestación**: Suba los siguientes archivos (ya generados) a la raíz de su repositorio:
     *   `railway.json`
     *   `Dockerfile`
@@ -37,9 +39,10 @@ Antes de tocar el código, necesitamos las llaves de acceso.
 2.  **Aprovisionar Bases de Datos**:
     *   Haga clic en **New > Database > Add PostgreSQL**.
     *   Haga clic en **New > Database > Add Redis**.
-3.  **Vincular Dominio**:
+3.  **Dominio de Pruebas**: Railway le asignará un dominio tipo `xxx.up.railway.app`. Use este para las pruebas iniciales.
+4.  **Vincular Dominio Final (Posterior)**:
     *   En el servicio Web, vaya a **Settings > Domains**.
-    *   Añada `ingles-facil.com`.
+    *   Añada `ingles-facil.com` solo cuando esté listo para producción.
 4.  **Configurar DNS**:
     *   En su proveedor de dominio, cree un registro **CNAME** que apunte a la dirección generada por Railway.
 
@@ -50,8 +53,8 @@ Vaya a la pestaña **Variables** del servicio Web en Railway y pegue los valores
 
 | Variable | Valor |
 | :--- | :--- |
-| `NEXT_PUBLIC_WEBAPP_URL` | `https://ingles-facil.com` |
-| `NEXTAUTH_URL` | `https://ingles-facil.com` |
+| `NEXT_PUBLIC_WEBAPP_URL` | `https://SU-APP-EN-RAILWAY.up.railway.app` |
+| `NEXTAUTH_URL` | `https://SU-APP-EN-RAILWAY.up.railway.app` |
 | `NEXTAUTH_SECRET` | *(El hash de 32 bits generado)* |
 | `CALENDSO_ENCRYPTION_KEY` | *(El hash de 24 bits generado)* |
 | `GOOGLE_LOGIN_ENABLED` | `true` |
