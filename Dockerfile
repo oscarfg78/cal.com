@@ -45,7 +45,7 @@ COPY .yarnrc.yml ./
 
 RUN yarn config set httpTimeout 1200000
 ENV HUSKY=0
-RUN sed -i 's/husky install && //g' package.json
+RUN npm pkg delete scripts.postinstall
 RUN yarn install
 
 COPY --from=pruner /app/out/full/ .
