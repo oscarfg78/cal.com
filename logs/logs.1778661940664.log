@@ -1,0 +1,1004 @@
+2026-05-13T07:53:37.470833520Z [inf]  
+2026-05-13T07:53:37.470837140Z [inf]  
+2026-05-13T07:53:37.470840340Z [inf]  
+2026-05-13T07:53:37.470844310Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.470847670Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.470851030Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.470854320Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.470857710Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.470861370Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.470864540Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.470867659Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.470871089Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.470874429Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.470877669Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.470880899Z [inf]  }
+2026-05-13T07:53:37.470885499Z [inf]  Could not upsert app: campfire. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.470890309Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.470893709Z [inf]  
+2026-05-13T07:53:37.470897019Z [inf]  
+2026-05-13T07:53:37.470900659Z [inf]  
+2026-05-13T07:53:37.470904299Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.479231319Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.479237639Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.479241839Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.479244899Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.479247899Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.479251039Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.479254368Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.479257638Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.479260578Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.479263658Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.479266948Z [inf]  }
+2026-05-13T07:53:37.479270088Z [inf]  Could not upsert app: caretta. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.479272968Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.479275898Z [inf]  
+2026-05-13T07:53:37.479279048Z [inf]  
+2026-05-13T07:53:37.479282118Z [inf]  
+2026-05-13T07:53:37.479285428Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.479289018Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.479668204Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.479673434Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.479677904Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.488986023Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.488993343Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.488998033Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.489001593Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.489004993Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.489008543Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.489012773Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.489016413Z [inf]  }
+2026-05-13T07:53:37.489019543Z [inf]  Could not upsert app: chatbase. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.489022933Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.489027493Z [inf]  
+2026-05-13T07:53:37.489030563Z [inf]  
+2026-05-13T07:53:37.489039303Z [inf]  
+2026-05-13T07:53:37.489042933Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.489046443Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.489049423Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.489052803Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.489055813Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.489059243Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.489062623Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.489066033Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.489069213Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.497100984Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.497107564Z [inf]  }
+2026-05-13T07:53:37.497111284Z [inf]  Could not upsert app: clic. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.497113964Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.497116574Z [inf]  
+2026-05-13T07:53:37.497119434Z [inf]  
+2026-05-13T07:53:37.497122784Z [inf]  
+2026-05-13T07:53:37.497125054Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.497127594Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.497130514Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.497132934Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.497135464Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.497138044Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.497140614Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.497143234Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.497146454Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.497291963Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.497297873Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.497303103Z [inf]  }
+2026-05-13T07:53:37.497307903Z [inf]  Could not upsert app: closecom. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.497312223Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.497317003Z [inf]  
+2026-05-13T07:53:37.497321233Z [inf]  
+2026-05-13T07:53:37.497325393Z [inf]  
+2026-05-13T07:53:37.505489903Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.505496303Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.505500473Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.505504393Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.505800140Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.505805630Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.505810490Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.505815550Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.505820350Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.505825430Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.505830800Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.505835850Z [inf]  }
+2026-05-13T07:53:37.505840750Z [inf]  Could not upsert app: cron. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.505845420Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.505850270Z [inf]  
+2026-05-13T07:53:37.505855169Z [inf]  
+2026-05-13T07:53:37.505859879Z [inf]  
+2026-05-13T07:53:37.505864299Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.505869139Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.505873359Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.505877689Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.513313137Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.513318557Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.513322287Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.513325837Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.513329957Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.513885332Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.513891782Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.513901542Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.513909292Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.513914602Z [inf]  }
+2026-05-13T07:53:37.513919381Z [inf]  Could not upsert app: daily-video. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.513923841Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.513927861Z [inf]  
+2026-05-13T07:53:37.513931911Z [inf]  
+2026-05-13T07:53:37.513935571Z [inf]  
+2026-05-13T07:53:37.513939201Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.513942691Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.513946141Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.513949911Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.513953601Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.513957601Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.520618116Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.520625046Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.520629696Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.520633076Z [inf]  }
+2026-05-13T07:53:37.520637006Z [inf]  Could not upsert app: databuddy. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.520640766Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.520644996Z [inf]  
+2026-05-13T07:53:37.520648375Z [inf]  
+2026-05-13T07:53:37.520651896Z [inf]  
+2026-05-13T07:53:37.520663296Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.520666786Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.520670116Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.520673656Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.520677296Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.520681286Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.520684956Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.520688386Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.520693126Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.520696816Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.520700226Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.520704066Z [inf]  }
+2026-05-13T07:53:37.520707216Z [inf]  Could not upsert app: deel. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.520710406Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.528269732Z [inf]  
+2026-05-13T07:53:37.528275152Z [inf]  
+2026-05-13T07:53:37.528280332Z [inf]  
+2026-05-13T07:53:37.528285532Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.528290532Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.528295572Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.528300811Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.528305731Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.528310591Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.528315441Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.528320171Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.528324321Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.528328631Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.528333061Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.528338181Z [inf]  }
+2026-05-13T07:53:37.528342771Z [inf]  Could not upsert app: demodesk. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.528347101Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.528352031Z [inf]  
+2026-05-13T07:53:37.528358081Z [inf]  
+2026-05-13T07:53:37.528362561Z [inf]  
+2026-05-13T07:53:37.528366861Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.528371721Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.528375921Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.535333933Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.535338903Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.535343273Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.535347243Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.535350663Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.535354573Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.535358043Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.535361613Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.535365223Z [inf]  }
+2026-05-13T07:53:37.535369113Z [inf]  Could not upsert app: dialpad. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.535372473Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.535376273Z [inf]  
+2026-05-13T07:53:37.535379842Z [inf]  
+2026-05-13T07:53:37.535383573Z [inf]  
+2026-05-13T07:53:37.535387133Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.535390903Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.535395143Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.535398713Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.535402003Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.535405463Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.535408943Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.545532594Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.545537774Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.545541794Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.545545894Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.545550074Z [inf]  }
+2026-05-13T07:53:37.545554604Z [inf]  Could not upsert app: discord. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.545558354Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.545562224Z [inf]  
+2026-05-13T07:53:37.545565914Z [inf]  
+2026-05-13T07:53:37.545569884Z [inf]  
+2026-05-13T07:53:37.545573754Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.545577314Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.545580444Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.545583944Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.545587883Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.545591273Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.545594643Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.545598493Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.545601633Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.545605173Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.545608053Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.545612423Z [inf]  }
+2026-05-13T07:53:37.545616283Z [inf]  Could not upsert app: dub. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.552921943Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.552929253Z [inf]  
+2026-05-13T07:53:37.552935793Z [inf]  
+2026-05-13T07:53:37.552940793Z [inf]  
+2026-05-13T07:53:37.552946023Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.552951613Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.552956923Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.552961502Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.552966482Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.552971652Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.552976722Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.552980982Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.552985972Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.552990832Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.552995812Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.553000622Z [inf]  }
+2026-05-13T07:53:37.553005182Z [inf]  Could not upsert app: eightxeight. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.553009882Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.553014682Z [inf]  
+2026-05-13T07:53:37.553019272Z [inf]  
+2026-05-13T07:53:37.553024272Z [inf]  
+2026-05-13T07:53:37.553028922Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.553034022Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.560594199Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.560599789Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.560605439Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.560609089Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.560612518Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.560619388Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.560619678Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.560628168Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.560628338Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.560634018Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.560638688Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.560642518Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.560646538Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.560650198Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.560653978Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.560663598Z [inf]  }
+2026-05-13T07:53:37.560667458Z [inf]  Could not upsert app: element-call. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.560671128Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.560675048Z [inf]  
+2026-05-13T07:53:37.560679878Z [inf]  
+2026-05-13T07:53:37.560684048Z [inf]  
+2026-05-13T07:53:37.567747189Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.567752719Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.567757318Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.567761148Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.567764808Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.567769008Z [inf]  }
+2026-05-13T07:53:37.567773528Z [inf]  Could not upsert app: elevenlabs. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.567777058Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.567780768Z [inf]  
+2026-05-13T07:53:37.567784028Z [inf]  
+2026-05-13T07:53:37.567788848Z [inf]  
+2026-05-13T07:53:37.567792438Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.567796088Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.567800048Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.567804938Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.567809448Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.567813998Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.567817898Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.567821308Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.567825678Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.567829328Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.567833358Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.567836848Z [inf]  }
+2026-05-13T07:53:37.574690781Z [inf]  Could not upsert app: exchange2013-calendar. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.574695151Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.574699431Z [inf]  
+2026-05-13T07:53:37.574702991Z [inf]  
+2026-05-13T07:53:37.574707191Z [inf]  
+2026-05-13T07:53:37.574710871Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.574714451Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.574718111Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.574722391Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.574725631Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.574728621Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.574731471Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.574734791Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.574738051Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.574741541Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.574744701Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.574747651Z [inf]  }
+2026-05-13T07:53:37.574750781Z [inf]  Could not upsert app: exchange2016-calendar. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.574754111Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.574757021Z [inf]  
+2026-05-13T07:53:37.574761151Z [inf]  
+2026-05-13T07:53:37.574764300Z [inf]  
+2026-05-13T07:53:37.574767710Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.582505246Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.582511145Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.582515415Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.582518685Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.582524035Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.582528445Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.582531435Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.582535125Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.582538625Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.582542555Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.582545735Z [inf]  }
+2026-05-13T07:53:37.582549105Z [inf]  Could not upsert app: exchange. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.582553015Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.582556485Z [inf]  
+2026-05-13T07:53:37.582559865Z [inf]  
+2026-05-13T07:53:37.582562925Z [inf]  
+2026-05-13T07:53:37.582566425Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.582569775Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.582572795Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.582576015Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.582579415Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.589473197Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.589477447Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.589481277Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.589484967Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.589488137Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.589492227Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.589495707Z [inf]  }
+2026-05-13T07:53:37.589499577Z [inf]  Could not upsert app: facetime. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.589502587Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.589506217Z [inf]  
+2026-05-13T07:53:37.589509787Z [inf]  
+2026-05-13T07:53:37.589513317Z [inf]  
+2026-05-13T07:53:37.589516777Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.589520327Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.589523847Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:37.589527417Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T07:53:37.589530687Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T07:53:37.589533837Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T07:53:37.589537167Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T07:53:37.589540357Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T07:53:37.589543517Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T07:53:37.589546807Z [inf]    meta: { modelName: 'App' },
+2026-05-13T07:53:37.596535859Z [inf]    clientVersion: '6.16.1'
+2026-05-13T07:53:37.596539369Z [inf]  }
+2026-05-13T07:53:37.596543349Z [inf]  Could not upsert app: famulor. Error: PrismaClientKnownRequestError: 
+2026-05-13T07:53:37.596546609Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T07:53:37.596550059Z [inf]  
+2026-05-13T07:53:37.596553779Z [inf]  
+2026-05-13T07:53:37.596556829Z [inf]  
+2026-05-13T07:53:37.596561019Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T07:53:37.596565159Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T07:53:37.596568488Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T07:53:38.427255641Z [inf]  @calcom/web:start: cache bypass, force executing 7e2328dce21084e1
+2026-05-13T07:53:38.511461678Z [err]  Railway rate limit reached for deployment, update your application to reduce the logging rate. Messages dropped: 242
+2026-05-13T07:53:39.032790559Z [inf]  @calcom/web:start: ▲ Next.js 16.2.3
+2026-05-13T07:53:39.032798919Z [inf]  @calcom/web:start: - Local:         http://localhost:3000
+2026-05-13T07:53:39.032804479Z [inf]  @calcom/web:start: - Network:       http://10.223.138.108:3000
+2026-05-13T07:53:39.032810039Z [inf]  @calcom/web:start: ✓ Ready in 79ms
+2026-05-13T07:53:39.160529419Z [inf]  @calcom/web:start: ⨯ Failed to load next.config.ts, see more info here https://nextjs.org/docs/messages/next-config-error
+2026-05-13T07:53:39.160536789Z [inf]  @calcom/web:start: Error: Please set NEXTAUTH_SECRET
+2026-05-13T07:53:39.160541169Z [inf]  @calcom/web:start:     at Object.<anonymous> (next.config.compiled.js:47:41)
+2026-05-13T07:53:39.216784033Z [err]  @calcom/web:start: ERROR: command finished with error: command (/calcom/apps/web) /tmp/xfs-01a49693/yarn run start exited (1)
+2026-05-13T07:53:39.216790773Z [err]  @calcom/web#start: command (/calcom/apps/web) /tmp/xfs-01a49693/yarn run start exited (1)
+2026-05-13T07:53:39.216795903Z [inf]  
+2026-05-13T07:53:39.216799903Z [inf]   Tasks:    0 successful, 1 total
+2026-05-13T07:53:39.216803843Z [inf]  Cached:    0 cached, 1 total
+2026-05-13T07:53:39.216808213Z [inf]    Time:    1.011s 
+2026-05-13T07:53:39.216812013Z [inf]  Failed:    @calcom/web#start
+2026-05-13T07:53:39.216815683Z [inf]  
+2026-05-13T07:53:39.224777665Z [err]   ERROR  run failed: command  exited (1)
+2026-05-13T07:53:50.070772540Z [err]  Railway rate limit of 500 logs/sec reached for replica, update your application to reduce the logging rate. Messages dropped: 2060
+2026-05-13T07:59:15.886322550Z [inf]  Stopping Container
+2026-05-13T08:02:08.502706864Z [inf]  Stopping Container
+2026-05-13T08:18:55.256894267Z [inf]  Starting Container
+2026-05-13T08:18:55.630603405Z [err]  + scripts/replace-placeholder.sh https://tu-app.up.railway.app https://tu-app.up.railway.app
+2026-05-13T08:18:55.630609595Z [inf]  Nothing to replace, the value is already set to https://tu-app.up.railway.app.
+2026-05-13T08:18:55.630613285Z [err]  + [ -n  ]
+2026-05-13T08:18:55.630616525Z [err]  + npx prisma migrate deploy --schema /calcom/packages/prisma/schema.prisma
+2026-05-13T08:18:55.682823664Z [err]  warn The configuration property `package.json#prisma` is deprecated and will be removed in Prisma 7. Please migrate to a Prisma config file (e.g., `prisma.config.ts`).
+2026-05-13T08:18:55.682828554Z [err]  For more information, see: https://pris.ly/prisma-config
+2026-05-13T08:18:55.682832084Z [err]  
+2026-05-13T08:18:55.740083326Z [inf]  Prisma schema loaded from packages/prisma/schema.prisma
+2026-05-13T08:18:55.740087946Z [err]  Error: Prisma schema validation - (get-config wasm)
+2026-05-13T08:18:55.740091916Z [err]  Error code: P1012
+2026-05-13T08:18:55.740096336Z [err]  error: Environment variable not found: DATABASE_DIRECT_URL.
+2026-05-13T08:18:55.740100266Z [err]    -->  packages/prisma/schema.prisma:7
+2026-05-13T08:18:55.740103906Z [err]     | 
+2026-05-13T08:18:55.740107836Z [err]   6 |   url       = env("DATABASE_URL")
+2026-05-13T08:18:55.740111446Z [err]   7 |   directUrl = env("DATABASE_DIRECT_URL")
+2026-05-13T08:18:55.740115106Z [err]     | 
+2026-05-13T08:18:55.740118656Z [err]  
+2026-05-13T08:18:55.740122436Z [err]  Validation Error Count: 1
+2026-05-13T08:18:55.740127376Z [err]  [Context: getConfig]
+2026-05-13T08:18:55.740130776Z [err]  
+2026-05-13T08:18:55.740134906Z [err]  Prisma CLI Version : 6.16.1
+2026-05-13T08:18:55.740138726Z [err]  npm notice
+2026-05-13T08:18:55.740142886Z [err]  npm notice New major version of npm available! 10.8.2 -> 11.14.1
+2026-05-13T08:18:55.740146236Z [err]  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.14.1
+2026-05-13T08:18:55.740149266Z [err]  npm notice To update run: npm install -g npm@11.14.1
+2026-05-13T08:18:55.740152576Z [err]  npm notice
+2026-05-13T08:18:55.744512714Z [err]  + npx ts-node --transpile-only /calcom/scripts/seed-app-store.ts
+2026-05-13T08:18:56.746273155Z [inf]  Could not upsert app: apple-calendar. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.746277015Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.746282785Z [inf]  
+2026-05-13T08:18:56.746285905Z [inf]  
+2026-05-13T08:18:56.746289264Z [inf]  
+2026-05-13T08:18:56.746292594Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.746296124Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.746305124Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.746308474Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.746311694Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.746314414Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.746317414Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:96:3)
+2026-05-13T08:18:56.746320444Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.746324044Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.746327284Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.746394853Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.746397943Z [inf]  }
+2026-05-13T08:18:56.746401243Z [inf]  Could not upsert app: caldav-calendar. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.746404163Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.746407263Z [inf]  
+2026-05-13T08:18:56.746410283Z [inf]  
+2026-05-13T08:18:56.746413343Z [inf]  
+2026-05-13T08:18:56.746416453Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.746419473Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.746422593Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.746425673Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.746428483Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.746432373Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.746435223Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:108:3)
+2026-05-13T08:18:56.746438033Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.746440873Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.746443593Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.746588592Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.746595291Z [inf]  }
+2026-05-13T08:18:56.746600251Z [err]  Error adding google credentials to DB: Cannot destructure property 'client_secret' of 'JSON.parse(...).web' as it is undefined.
+2026-05-13T08:18:56.746604971Z [inf]  Could not upsert app: jitsi. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.746608761Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.746612611Z [inf]  
+2026-05-13T08:18:56.746616391Z [inf]  
+2026-05-13T08:18:56.746619911Z [inf]  
+2026-05-13T08:18:56.746624131Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.746628431Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.746632141Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.747212865Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.747225415Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.747230375Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.747234055Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:167:3)
+2026-05-13T08:18:56.747238045Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.747242645Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.747246565Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.747250545Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.747368234Z [inf]  }
+2026-05-13T08:18:56.747374354Z [inf]  Could not upsert app: wipe-my-cal. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.747378364Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.747382414Z [inf]  
+2026-05-13T08:18:56.747386334Z [inf]  
+2026-05-13T08:18:56.747389964Z [inf]  
+2026-05-13T08:18:56.747393754Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.747398154Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.747402034Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.747406244Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.747409674Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.747413033Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.747416393Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:188:3)
+2026-05-13T08:18:56.747747640Z [inf]  
+2026-05-13T08:18:56.747748870Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.747755040Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.747756850Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.747761370Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.747763710Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.747766780Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.747770600Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.747773550Z [inf]  }
+2026-05-13T08:18:56.747777470Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.747779580Z [inf]  Could not upsert app: make. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.747784590Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.747794620Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.747797330Z [inf]  
+2026-05-13T08:18:56.747802080Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.747804720Z [inf]  
+2026-05-13T08:18:56.747808080Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:209:3)
+2026-05-13T08:18:56.747811830Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.747816170Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.747819660Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.747823130Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.747826940Z [inf]  }
+2026-05-13T08:18:56.747830110Z [inf]  Could not upsert app: alby. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.748277426Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.748280436Z [inf]  
+2026-05-13T08:18:56.748282876Z [inf]  
+2026-05-13T08:18:56.748285126Z [inf]  
+2026-05-13T08:18:56.748287606Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.748289956Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.748292006Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.748294426Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.748296946Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.748299346Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.748301496Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.748303636Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.748306086Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.748308776Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.748311036Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.748313536Z [inf]  }
+2026-05-13T08:18:56.748315826Z [inf]  Could not upsert app: amie. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.748318536Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.748321816Z [inf]  
+2026-05-13T08:18:56.748324506Z [inf]  
+2026-05-13T08:18:56.748326836Z [inf]  
+2026-05-13T08:18:56.748329496Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.748332535Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.749261506Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.749264966Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.749264996Z [inf]  
+2026-05-13T08:18:56.749270346Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.749270796Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.749274526Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.749277106Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.749278186Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.749281146Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.749282266Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.749285026Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.749285926Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.749289826Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.749290266Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.749293546Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.749296496Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.749299356Z [inf]  }
+2026-05-13T08:18:56.749302216Z [inf]  Could not upsert app: apple-calendar. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.749305356Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.749308366Z [inf]  
+2026-05-13T08:18:56.749311406Z [inf]  
+2026-05-13T08:18:56.749708682Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.749718742Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.749725352Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.749729152Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.749734292Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.749738212Z [inf]  }
+2026-05-13T08:18:56.749741572Z [inf]  Could not upsert app: attio. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.749745582Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.749749472Z [inf]  
+2026-05-13T08:18:56.749753062Z [inf]  
+2026-05-13T08:18:56.749756482Z [inf]  
+2026-05-13T08:18:56.749760062Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.749763752Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.749767171Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.749770931Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.749774181Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.749777631Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.749781211Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.749784641Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.749787941Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.749790931Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.749794041Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.749797031Z [inf]  }
+2026-05-13T08:18:56.750500095Z [inf]  Could not upsert app: baa-for-hipaa. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.750502055Z [inf]  Could not upsert app: autocheckin. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.750507995Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.750509965Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.750515875Z [inf]  
+2026-05-13T08:18:56.750516345Z [inf]  
+2026-05-13T08:18:56.750523145Z [inf]  
+2026-05-13T08:18:56.750523275Z [inf]  
+2026-05-13T08:18:56.750530995Z [inf]  
+2026-05-13T08:18:56.750531645Z [inf]  
+2026-05-13T08:18:56.750538155Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.750538365Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.750543805Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.750546545Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.750549395Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.750552145Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.750554525Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.750556985Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.750559705Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.750562555Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.750565135Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.750567505Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.750570875Z [inf]  }
+2026-05-13T08:18:56.751150559Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.751154429Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.751159629Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.751163439Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.751167009Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.751171039Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.751174809Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.751178149Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.751182299Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.751185199Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.751188109Z [inf]  }
+2026-05-13T08:18:56.751191699Z [inf]  Could not upsert app: basecamp3. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.751195139Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.751198738Z [inf]  
+2026-05-13T08:18:56.751201908Z [inf]  
+2026-05-13T08:18:56.751204788Z [inf]  
+2026-05-13T08:18:56.751207708Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.751211068Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.751214648Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.751218768Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.751221668Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.752259998Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.752264708Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.752268848Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.752272028Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.752275148Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.752278208Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.752281278Z [inf]  }
+2026-05-13T08:18:56.752284348Z [inf]  Could not upsert app: bolna. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.752287358Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.752290028Z [inf]  
+2026-05-13T08:18:56.752292968Z [inf]  
+2026-05-13T08:18:56.752296078Z [inf]  
+2026-05-13T08:18:56.752299248Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.752302758Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.752306008Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.752309158Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.752312318Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.752315068Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.752318198Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.752321238Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.752324067Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.752327387Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.752900662Z [inf]  Could not upsert app: caldav-calendar. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.752900742Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.752904552Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.752905562Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.752910242Z [inf]  
+2026-05-13T08:18:56.752911102Z [inf]  }
+2026-05-13T08:18:56.752911842Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.752915012Z [inf]  
+2026-05-13T08:18:56.752920302Z [inf]  Could not upsert app: btcpayserver. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.752921162Z [inf]  
+2026-05-13T08:18:56.752925072Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.752926832Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.752935712Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.752936421Z [inf]  
+2026-05-13T08:18:56.752941021Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.752947991Z [inf]  
+2026-05-13T08:18:56.752950271Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.752951681Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.752957821Z [inf]  
+2026-05-13T08:18:56.752961961Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.752962081Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.752970191Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.752971661Z [inf]  }
+2026-05-13T08:18:56.753859333Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.753865933Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.753870013Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.753874593Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.753878303Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.753881983Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.753885273Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.753888323Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.753891543Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.753895073Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.753898153Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.753901253Z [inf]  }
+2026-05-13T08:18:56.753905053Z [inf]  Could not upsert app: campfire. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.753909443Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.753913293Z [inf]  
+2026-05-13T08:18:56.753916273Z [inf]  
+2026-05-13T08:18:56.753919063Z [inf]  
+2026-05-13T08:18:56.753922253Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.753928333Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.753931983Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.753936443Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.754676035Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.754679855Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.754683765Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.754686835Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.754689875Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.754694015Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.754699025Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.754702445Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.754705705Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.754709105Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.754712385Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.754716275Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.754719585Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.754723105Z [inf]  }
+2026-05-13T08:18:56.754726305Z [inf]  Could not upsert app: caretta. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.754729845Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.754732835Z [inf]  
+2026-05-13T08:18:56.754735895Z [inf]  
+2026-05-13T08:18:56.754738885Z [inf]  
+2026-05-13T08:18:56.754741905Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.754744965Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.754748405Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.759569520Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.759570560Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.759577380Z [inf]  
+2026-05-13T08:18:56.759578090Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.759578100Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.759582490Z [inf]  
+2026-05-13T08:18:56.759583860Z [inf]  }
+2026-05-13T08:18:56.759587989Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.759592489Z [inf]  Could not upsert app: chatbase. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.759594749Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.759601169Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.759601499Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.759609529Z [inf]  
+2026-05-13T08:18:56.759609869Z [inf]  }
+2026-05-13T08:18:56.759618359Z [inf]  Could not upsert app: clic. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.759618589Z [inf]  
+2026-05-13T08:18:56.759624119Z [inf]  
+2026-05-13T08:18:56.759628309Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.759631649Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.759637469Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.759641369Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.759645029Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.759648849Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.759652819Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.760458591Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.760462131Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.760467461Z [inf]  
+2026-05-13T08:18:56.760471151Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.760474911Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.760478641Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.760482131Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.760485771Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.760489391Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.760493491Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.760496671Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.760500131Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.760504031Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.760506970Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.760509910Z [inf]  }
+2026-05-13T08:18:56.760513110Z [inf]  Could not upsert app: closecom. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.760516420Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.760521320Z [inf]  
+2026-05-13T08:18:56.760524450Z [inf]  
+2026-05-13T08:18:56.760528350Z [inf]  
+2026-05-13T08:18:56.760531880Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.761590121Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.761591251Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.761595511Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.761599731Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.761600581Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.761608851Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.761610841Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.761611851Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.761618691Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.761623751Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.761625061Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.761630001Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.761635310Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.761638730Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.761642780Z [inf]  }
+2026-05-13T08:18:56.761646210Z [inf]  Could not upsert app: cron. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.761649950Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.761653190Z [inf]  
+2026-05-13T08:18:56.761656590Z [inf]  
+2026-05-13T08:18:56.761660630Z [inf]  
+2026-05-13T08:18:56.761664430Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.761980127Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.761984037Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.761989227Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.761990547Z [inf]  }
+2026-05-13T08:18:56.761997457Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.761997747Z [inf]  Could not upsert app: databuddy. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.762002117Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.762005047Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.762007797Z [inf]  }
+2026-05-13T08:18:56.762011007Z [inf]  Could not upsert app: daily-video. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.762013767Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.762016067Z [inf]  
+2026-05-13T08:18:56.762021757Z [inf]  
+2026-05-13T08:18:56.762024267Z [inf]  
+2026-05-13T08:18:56.762027397Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.762029987Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.762033307Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.762036097Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.762038867Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.762041766Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.762044646Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.762047506Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.762050116Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.762734350Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.762738990Z [inf]  
+2026-05-13T08:18:56.762742340Z [inf]  
+2026-05-13T08:18:56.762745880Z [inf]  
+2026-05-13T08:18:56.762749620Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.762753200Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.762756600Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.762760519Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.762763929Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.762766979Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.762770209Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.762773189Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.762776439Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.762780379Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.762783719Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.762786579Z [inf]  }
+2026-05-13T08:18:56.762790139Z [inf]  Could not upsert app: deel. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.762794169Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.762797279Z [inf]  
+2026-05-13T08:18:56.762800279Z [inf]  
+2026-05-13T08:18:56.762803409Z [inf]  
+2026-05-13T08:18:56.762806189Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.762808829Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.763294144Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.763294514Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.763301734Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.763301944Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.763310304Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.763310454Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.763317414Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.763318114Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.763323304Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.763328564Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.763329534Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.763333214Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.763336344Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.763339084Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.763341924Z [inf]  }
+2026-05-13T08:18:56.763344354Z [inf]  Could not upsert app: demodesk. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.763346774Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.763349374Z [inf]  
+2026-05-13T08:18:56.763351714Z [inf]  
+2026-05-13T08:18:56.763354644Z [inf]  
+2026-05-13T08:18:56.763357214Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.763857750Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.763858610Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.763862780Z [inf]  }
+2026-05-13T08:18:56.763866020Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.763872010Z [inf]  
+2026-05-13T08:18:56.763873420Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.763875940Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.763879230Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.763885509Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.763885889Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.763887529Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.763894669Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.763894869Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.763895009Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.763902209Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.763904289Z [inf]  }
+2026-05-13T08:18:56.763910279Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.763911319Z [inf]  Could not upsert app: dialpad. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.763917699Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.763918129Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.763925209Z [inf]  
+2026-05-13T08:18:56.763928359Z [inf]  
+2026-05-13T08:18:56.763932949Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.764872530Z [inf]  
+2026-05-13T08:18:56.764875380Z [inf]  Could not upsert app: discord. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.764877670Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.764880420Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.764887150Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.764887320Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.764895410Z [inf]  }
+2026-05-13T08:18:56.764895590Z [inf]  
+2026-05-13T08:18:56.764902410Z [inf]  Could not upsert app: dub. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.764906649Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.764910539Z [inf]  
+2026-05-13T08:18:56.764914369Z [inf]  
+2026-05-13T08:18:56.764981939Z [inf]  
+2026-05-13T08:18:56.764985569Z [inf]  
+2026-05-13T08:18:56.764988539Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.764991809Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.764994929Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.764998099Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.765001209Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.765004359Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.765007079Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.765009968Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.765012948Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.765395875Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.765400405Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.765404295Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.765408205Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.765412095Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.765416135Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.765420174Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.765423624Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.765426544Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.765429594Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.765432984Z [inf]  }
+2026-05-13T08:18:56.765436074Z [inf]  Could not upsert app: eightxeight. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.765439574Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.765442964Z [inf]  
+2026-05-13T08:18:56.765446934Z [inf]  
+2026-05-13T08:18:56.765450244Z [inf]  
+2026-05-13T08:18:56.765453584Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.765456864Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.765460004Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.765463214Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.765466164Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.766404496Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.766415246Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.766420626Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.766424906Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.766428636Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.766432536Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.766436026Z [inf]  }
+2026-05-13T08:18:56.766439386Z [inf]  Could not upsert app: element-call. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.766443655Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.766447375Z [inf]  
+2026-05-13T08:18:56.766450505Z [inf]  
+2026-05-13T08:18:56.766454075Z [inf]  
+2026-05-13T08:18:56.766458565Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.766461805Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.766465015Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.766468345Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.766471305Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.766474575Z [inf]      at async createApp (/calcom/scripts/seed-app-store.ts:29:22)
+2026-05-13T08:18:56.766477725Z [inf]      at async main (/calcom/scripts/seed-app-store.ts:254:5)
+2026-05-13T08:18:56.766480825Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.766484085Z [inf]    code: 'ECONNREFUSED',
+2026-05-13T08:18:56.766486975Z [inf]    meta: { modelName: 'App' },
+2026-05-13T08:18:56.767175898Z [inf]    clientVersion: '6.16.1'
+2026-05-13T08:18:56.768828823Z [inf]      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-05-13T08:18:56.770512757Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.772425749Z [inf]  Could not upsert app: framer. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.774417091Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.776494901Z [inf]  
+2026-05-13T08:18:56.778557331Z [inf]      at pi.request (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:143:12)
+2026-05-13T08:18:56.780341714Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.782509304Z [inf]      at async a (/calcom/node_modules/@prisma/client/src/runtime/getPrismaClient.ts:833:24)
+2026-05-13T08:18:56.784453486Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.786583305Z [inf]  Could not upsert app: pipedream. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.788363099Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.790165302Z [inf]  Could not upsert app: salesroom. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:56.792230573Z [inf]  Invalid `prisma.app.findFirst()` invocation:
+2026-05-13T08:18:56.794542550Z [inf]      at pi.handleAndLogRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:174:12)
+2026-05-13T08:18:56.796244395Z [inf]      at pi.handleRequestError (/calcom/node_modules/@prisma/client/src/runtime/RequestHandler.ts:228:13)
+2026-05-13T08:18:56.798502354Z [inf]      at async /calcom/scripts/seed-app-store.ts:267:5 {
+2026-05-13T08:18:56.800278797Z [inf]  Could not upsert app: zohocalendar. Error: PrismaClientKnownRequestError: 
+2026-05-13T08:18:57.808653794Z [err]  
+2026-05-13T08:18:57.808656994Z [err]  Attention:
+2026-05-13T08:18:57.808659814Z [err]  Turborepo now collects completely anonymous telemetry regarding usage.
+2026-05-13T08:18:57.808663114Z [err]  This information is used to shape the Turborepo roadmap and prioritize features.
+2026-05-13T08:18:57.808666324Z [err]  You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-05-13T08:18:57.808669044Z [err]  https://turborepo.com/docs/telemetry
+2026-05-13T08:18:57.808671784Z [err]  
+2026-05-13T08:18:57.808674864Z [err]  • turbo 2.7.1
+2026-05-13T08:18:58.039591272Z [inf]  • Packages in scope: @calcom/web
+2026-05-13T08:18:58.039595812Z [inf]  • Running start in 1 packages
+2026-05-13T08:18:58.039598962Z [inf]  • Remote caching disabled
+2026-05-13T08:18:58.096272289Z [inf]  @calcom/web:start: cache bypass, force executing a0ddb5b8ed0835ab
+2026-05-13T08:18:58.836313869Z [inf]  @calcom/web:start: ▲ Next.js 16.2.3
+2026-05-13T08:18:58.836317319Z [inf]  @calcom/web:start: - Local:         http://localhost:3000
+2026-05-13T08:18:58.836320179Z [inf]  @calcom/web:start: - Network:       http://10.171.113.185:3000
+2026-05-13T08:18:58.836323209Z [inf]  @calcom/web:start: ✓ Ready in 91ms
+2026-05-13T08:18:58.861393134Z [inf]  @calcom/web:start: [33mwarn [0m EMAIL_FROM environment variable is not set, this may indicate mailing is currently disabled. Please refer to the .env.example file.
+2026-05-13T08:18:58.865400756Z [inf]  @calcom/web:start: [Phase: phase-production-server] Skipping rewrite config for organizations because ORGANIZATIONS_ENABLED is not set
+2026-05-13T08:19:10.152281508Z [err]  Railway rate limit of 500 logs/sec reached for replica, update your application to reduce the logging rate. Messages dropped: 1345
+2026-05-13T08:27:28.141458450Z [inf]  Stopping Container
+2026-05-13T08:39:48.416619067Z [err]  + scripts/replace-placeholder.sh https://tu-app.up.railway.app https://tu-app.up.railway.app
+2026-05-13T08:39:48.416622957Z [inf]  Nothing to replace, the value is already set to https://tu-app.up.railway.app.
+2026-05-13T08:39:48.416626387Z [err]  + [ -n  ]
+2026-05-13T08:39:48.416630376Z [err]  + npx prisma db push --accept-data-loss --schema /calcom/packages/prisma/schema.prisma
+2026-05-13T08:39:48.523173452Z [err]  warn The configuration property `package.json#prisma` is deprecated and will be removed in Prisma 7. Please migrate to a Prisma config file (e.g., `prisma.config.ts`).
+2026-05-13T08:39:48.523180062Z [err]  For more information, see: https://pris.ly/prisma-config
+2026-05-13T08:39:48.523184462Z [err]  
+2026-05-13T08:39:48.554693661Z [inf]  Prisma schema loaded from packages/prisma/schema.prisma
+2026-05-13T08:39:48.564455728Z [err]  Error: Prisma schema validation - (get-config wasm)
+2026-05-13T08:39:48.564465737Z [err]  Error code: P1012
+2026-05-13T08:39:48.564473437Z [err]  error: Environment variable not found: DATABASE_DIRECT_URL.
+2026-05-13T08:39:48.564477577Z [err]    -->  packages/prisma/schema.prisma:7
+2026-05-13T08:39:48.564481467Z [err]     | 
+2026-05-13T08:39:48.564485467Z [err]   6 |   url       = env("DATABASE_URL")
+2026-05-13T08:39:48.564489947Z [err]   7 |   directUrl = env("DATABASE_DIRECT_URL")
+2026-05-13T08:39:48.564494527Z [err]     | 
+2026-05-13T08:39:48.564498157Z [err]  
+2026-05-13T08:39:48.564503477Z [err]  Validation Error Count: 1
+2026-05-13T08:39:48.564507527Z [err]  [Context: getConfig]
+2026-05-13T08:39:48.564511047Z [err]  
+2026-05-13T08:39:48.564639925Z [err]  Prisma CLI Version : 6.16.1
+2026-05-13T08:39:48.565101779Z [err]  npm notice
+2026-05-13T08:39:48.565104659Z [err]  npm notice New major version of npm available! 10.8.2 -> 11.14.1
+2026-05-13T08:39:48.565107299Z [err]  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.14.1
+2026-05-13T08:39:48.565109989Z [err]  npm notice To update run: npm install -g npm@11.14.1
+2026-05-13T08:39:48.565112809Z [err]  npm notice
+2026-05-13T08:39:48.574744477Z [err]  + yarn start
+2026-05-13T08:39:48.770009995Z [inf]  Starting Container
+2026-05-13T08:39:49.608552643Z [err]  
+2026-05-13T08:39:49.608558043Z [err]  Attention:
+2026-05-13T08:39:49.608561703Z [err]  Turborepo now collects completely anonymous telemetry regarding usage.
+2026-05-13T08:39:49.608565583Z [err]  This information is used to shape the Turborepo roadmap and prioritize features.
+2026-05-13T08:39:49.608567913Z [err]  You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-05-13T08:39:49.608570343Z [err]  https://turborepo.com/docs/telemetry
+2026-05-13T08:39:49.608572803Z [err]  
+2026-05-13T08:39:49.608576233Z [err]  • turbo 2.7.1
+2026-05-13T08:39:49.908978501Z [inf]  • Packages in scope: @calcom/web
+2026-05-13T08:39:49.908984001Z [inf]  • Running start in 1 packages
+2026-05-13T08:39:49.908987811Z [inf]  • Remote caching disabled
+2026-05-13T08:39:49.959573991Z [inf]  @calcom/web:start: cache bypass, force executing a0ddb5b8ed0835ab
+2026-05-13T08:39:50.557649114Z [inf]  @calcom/web:start: ▲ Next.js 16.2.3
+2026-05-13T08:39:50.557652664Z [inf]  @calcom/web:start: - Local:         http://localhost:3000
+2026-05-13T08:39:50.557656084Z [inf]  @calcom/web:start: - Network:       http://10.210.129.84:3000
+2026-05-13T08:39:50.557658894Z [inf]  @calcom/web:start: ✓ Ready in 77ms
+2026-05-13T08:39:50.602498062Z [inf]  @calcom/web:start: [33mwarn [0m EMAIL_FROM environment variable is not set, this may indicate mailing is currently disabled. Please refer to the .env.example file.
+2026-05-13T08:39:50.602500332Z [inf]  @calcom/web:start: [Phase: phase-production-server] Skipping rewrite config for organizations because ORGANIZATIONS_ENABLED is not set

@@ -51,9 +51,15 @@ RUN yarn install
 COPY --from=pruner /app/out/full/ .
 COPY turbo.json turbo.json
 
-# Build and make embed servable from web/public/embed folder
-# Using --inline-builds to ensure Railway receives continuous logs
-RUN yarn turbo run build --filter=@calcom/web...
+# Set environment variables for embed-core to avoid git rev-parse failures
+ENV NEXT_PUBLIC_EMBED_FINGER_PRINT=railway \
+    NEXT_PUBLIC_EMBED_VERSION=1.5.3
+
+# Build sequence as in original Dockerfile but within optimized stage
+RUN yarn workspace @calcom/trpc run build
+RUN yarn workspace @calcom/embed-core run build
+RUN yarn workspace @calcom/web run copy-app-store-static
+RUN yarn workspace @calcom/web run build
 
 # Post-build cleanup to reduce image size
 RUN rm -rf node_modules/.cache .yarn/cache apps/web/.next/cache

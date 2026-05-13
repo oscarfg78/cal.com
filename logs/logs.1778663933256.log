@@ -1,0 +1,46 @@
+2026-05-13T09:15:48.944486216Z [err]  + scripts/replace-placeholder.sh https://tu-app.up.railway.app https://tu-app.up.railway.app
+2026-05-13T09:15:48.944488887Z [inf]  Nothing to replace, the value is already set to https://tu-app.up.railway.app.
+2026-05-13T09:15:48.944491606Z [err]  + [ -n  ]
+2026-05-13T09:15:48.944494426Z [err]  + npx prisma db push --accept-data-loss --schema /calcom/packages/prisma/schema.prisma
+2026-05-13T09:15:49.549019392Z [inf]  Starting Container
+2026-05-13T09:15:50.016105211Z [err]  warn The configuration property `package.json#prisma` is deprecated and will be removed in Prisma 7. Please migrate to a Prisma config file (e.g., `prisma.config.ts`).
+2026-05-13T09:15:50.016110150Z [err]  For more information, see: https://pris.ly/prisma-config
+2026-05-13T09:15:50.016113537Z [err]  
+2026-05-13T09:15:50.106354240Z [inf]  Prisma schema loaded from packages/prisma/schema.prisma
+2026-05-13T09:15:50.112150447Z [err]  Error: Prisma schema validation - (get-config wasm)
+2026-05-13T09:15:50.112157179Z [err]  Error code: P1012
+2026-05-13T09:15:50.112161177Z [err]  error: Environment variable not found: DATABASE_DIRECT_URL.
+2026-05-13T09:15:50.112164648Z [err]    -->  packages/prisma/schema.prisma:7
+2026-05-13T09:15:50.112168634Z [err]     | 
+2026-05-13T09:15:50.112172626Z [err]   6 |   url       = env("DATABASE_URL")
+2026-05-13T09:15:50.112184710Z [err]   7 |   directUrl = env("DATABASE_DIRECT_URL")
+2026-05-13T09:15:50.112189368Z [err]     | 
+2026-05-13T09:15:50.112193686Z [err]  
+2026-05-13T09:15:50.112197543Z [err]  Validation Error Count: 1
+2026-05-13T09:15:50.112200585Z [err]  [Context: getConfig]
+2026-05-13T09:15:50.112204658Z [err]  
+2026-05-13T09:15:50.112207915Z [err]  Prisma CLI Version : 6.16.1
+2026-05-13T09:15:50.117690856Z [err]  npm notice
+2026-05-13T09:15:50.117695491Z [err]  npm notice New major version of npm available! 10.8.2 -> 11.14.1
+2026-05-13T09:15:50.117699936Z [err]  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.14.1
+2026-05-13T09:15:50.117704213Z [err]  npm notice To update run: npm install -g npm@11.14.1
+2026-05-13T09:15:50.117708909Z [err]  npm notice
+2026-05-13T09:15:50.123417915Z [err]  + yarn start
+2026-05-13T09:15:51.481949427Z [err]  
+2026-05-13T09:15:51.481954228Z [err]  Attention:
+2026-05-13T09:15:51.481958375Z [err]  Turborepo now collects completely anonymous telemetry regarding usage.
+2026-05-13T09:15:51.481961461Z [err]  This information is used to shape the Turborepo roadmap and prioritize features.
+2026-05-13T09:15:51.481964438Z [err]  You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-05-13T09:15:51.481967382Z [err]  https://turborepo.com/docs/telemetry
+2026-05-13T09:15:51.481970904Z [err]  
+2026-05-13T09:15:51.481973971Z [err]  • turbo 2.7.1
+2026-05-13T09:15:51.755599106Z [inf]  • Packages in scope: @calcom/web
+2026-05-13T09:15:51.755603410Z [inf]  • Running start in 1 packages
+2026-05-13T09:15:51.755607703Z [inf]  • Remote caching disabled
+2026-05-13T09:15:51.954320283Z [inf]  @calcom/web:start: cache bypass, force executing a0ddb5b8ed0835ab
+2026-05-13T09:15:52.516126200Z [inf]  @calcom/web:start: ▲ Next.js 16.2.3
+2026-05-13T09:15:52.516129115Z [inf]  @calcom/web:start: - Local:         http://localhost:3000
+2026-05-13T09:15:52.516131910Z [inf]  @calcom/web:start: - Network:       http://10.252.128.203:3000
+2026-05-13T09:15:52.516134568Z [inf]  @calcom/web:start: ✓ Ready in 92ms
+2026-05-13T09:15:52.564494135Z [inf]  @calcom/web:start: [33mwarn [0m EMAIL_FROM environment variable is not set, this may indicate mailing is currently disabled. Please refer to the .env.example file.
+2026-05-13T09:15:52.564501691Z [inf]  @calcom/web:start: [Phase: phase-production-server] Skipping rewrite config for organizations because ORGANIZATIONS_ENABLED is not set
