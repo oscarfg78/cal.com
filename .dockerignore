@@ -28,9 +28,18 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+
 # OS
 .DS_Store
 Thumbs.db
 
 # Examples and docs
 docs
+example-apps
+__checks__
+specs
+agents

@@ -1,6 +1,11 @@
-FROM --platform=$BUILDPLATFORM node:20 AS builder
+FROM node:20 AS pruner
+WORKDIR /app
+RUN npm install -g turbo
+COPY . .
+RUN turbo prune --scope=@calcom/web --scope=@calcom/trpc --docker
 
-WORKDIR /calcom
+FROM node:20 AS builder
+WORKDIR /app
 
 ## If we want to read any ENV variable from .env file, we need to first accept and pass it as an argument to the Dockerfile
 ARG NEXT_PUBLIC_LICENSE_CONSENT
@@ -34,36 +39,32 @@ ENV NEXT_PUBLIC_WEBAPP_URL=http://NEXT_PUBLIC_WEBAPP_URL_PLACEHOLDER \
   BUILD_STANDALONE=true \
   CSP_POLICY=$CSP_POLICY
 
-COPY package.json yarn.lock .yarnrc.yml playwright.config.ts turbo.json i18n.json ./
-COPY .yarn ./.yarn
-COPY apps/web ./apps/web
-COPY apps/api/v2 ./apps/api/v2
-COPY packages ./packages
+COPY --from=pruner /app/out/json/ .
+COPY --from=pruner /app/out/yarn.lock ./yarn.lock
+COPY .yarnrc.yml ./
 
 RUN yarn config set httpTimeout 1200000
-RUN npx turbo prune --scope=@calcom/web --scope=@calcom/trpc --docker
 RUN yarn install
+
+COPY --from=pruner /app/out/full/ .
+COPY turbo.json turbo.json
+
 # Build and make embed servable from web/public/embed folder
-RUN yarn workspace @calcom/trpc run build
-RUN yarn --cwd packages/embeds/embed-core workspace @calcom/embed-core run build
-RUN yarn --cwd apps/web workspace @calcom/web run copy-app-store-static
-RUN yarn --cwd apps/web workspace @calcom/web run build
+# Using --inline-builds to ensure Railway receives continuous logs
+RUN yarn turbo run build --filter=@calcom/web... --inline-builds
+
+# Post-build cleanup to reduce image size
 RUN rm -rf node_modules/.cache .yarn/cache apps/web/.next/cache
 
-FROM node:20 AS builder-two
+FROM node:20 AS runner
+WORKDIR /app
 
-WORKDIR /calcom
-ARG NEXT_PUBLIC_WEBAPP_URL=http://localhost:3000
+RUN apt-get update && apt-get install -y --no-install-recommends netcat-openbsd wget && rm -rf /var/lib/apt/lists/*
 
 ENV NODE_ENV=production
+ARG NEXT_PUBLIC_WEBAPP_URL=http://localhost:3000
 
-COPY package.json .yarnrc.yml turbo.json i18n.json ./
-COPY .yarn ./.yarn
-COPY --from=builder /calcom/yarn.lock ./yarn.lock
-COPY --from=builder /calcom/node_modules ./node_modules
-COPY --from=builder /calcom/packages ./packages
-COPY --from=builder /calcom/apps/web ./apps/web
-COPY --from=builder /calcom/packages/prisma/schema.prisma ./prisma/schema.prisma
+COPY --from=builder /app ./
 COPY scripts scripts
 RUN chmod +x scripts/*
 
@@ -74,21 +75,9 @@ ENV NEXT_PUBLIC_WEBAPP_URL=$NEXT_PUBLIC_WEBAPP_URL \
 
 RUN scripts/replace-placeholder.sh http://NEXT_PUBLIC_WEBAPP_URL_PLACEHOLDER ${NEXT_PUBLIC_WEBAPP_URL}
 
-FROM node:20 AS runner
-
-WORKDIR /calcom
-
-RUN apt-get update && apt-get install -y --no-install-recommends netcat-openbsd wget && rm -rf /var/lib/apt/lists/*
-
-COPY --from=builder-two /calcom ./
-ARG NEXT_PUBLIC_WEBAPP_URL=http://localhost:3000
-ENV NEXT_PUBLIC_WEBAPP_URL=$NEXT_PUBLIC_WEBAPP_URL \
-  BUILT_NEXT_PUBLIC_WEBAPP_URL=$NEXT_PUBLIC_WEBAPP_URL
-
-ENV NODE_ENV=production
 EXPOSE 3000
 
 HEALTHCHECK --interval=30s --timeout=30s --retries=5 \
   CMD sh -c 'wget --spider http://localhost:${PORT:-3000}/api/health || exit 1'
 
-CMD ["/calcom/scripts/start.sh"]
+CMD ["/app/scripts/start.sh"]
