@@ -44,6 +44,7 @@ COPY --from=pruner /app/out/yarn.lock ./yarn.lock
 COPY .yarnrc.yml ./
 
 RUN yarn config set httpTimeout 1200000
+ENV HUSKY=0
 RUN yarn install
 
 COPY --from=pruner /app/out/full/ .
